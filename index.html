@@ -7,7 +7,11 @@
     <body>
 
         <div id="app">
-            <span v-if="seen">It is from html!</span>
+            <ol>
+                <li v-for="todo in todos">
+                {{ todo.text }}
+                </li>
+            </ol>
         </div>
 
         <script src="index.js"></script>

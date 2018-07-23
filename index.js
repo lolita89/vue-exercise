@@ -1,8 +1,11 @@
 var app = new Vue({
     el: '#app',
     data: {
-        seen: true
+        todos: [
+            { text: 'Learn Javascript' },
+            { text: 'Learn vue' },
+            { text: 'Build something awesome' },
+            {text: 'Get an amazing JOB!' }
+        ]
     }
 });
-
-// app.seen = false;
