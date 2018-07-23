@@ -1,8 +1,8 @@
 var app = new Vue({
     el: '#app',
     data: {
-        message: 'Hello Luit!'
+        seen: true
     }
 });
 
-app.message = "I have changed it!";
+// app.seen = false;
